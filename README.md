@@ -28,6 +28,6 @@
 #### 发布image
 &ensp;&ensp;&ensp;&ensp;&ensp;1.登录  docker login  <br/>
 &ensp;&ensp;&ensp;&ensp;&ensp;2.重新构建image文件  docker image build -t dosen2020/koa-demo:0.0.1 .  <br/>
-                                                  【docker image build -t [username]/[repository]:[tag] .】 <br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;【docker image build -t [username]/[repository]:[tag] .】 <br/>
 &ensp;&ensp;&ensp;&ensp;&ensp;3.发布image文件 docker image push dosen2020/koa-demo:0.0.1 <br/>
-                                              【docker image push [username]/[repository]:[tag]】
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;【docker image push [username]/[repository]:[tag]】
