@@ -12,7 +12,7 @@
 #### 历史版本安装
 &ensp;&ensp;&ensp;&ensp;查找历史版本：`yum list docker-ce --showduplicates | sort -r` <br/>
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;docker-ce.x86_64  3:18.09.1-3.el7                     docker-ce-stable <br/>
+&emsp;&emsp;&emsp;&emsp;docker-ce.x86_64  3:18.09.1-3.el7                     docker-ce-stable <br/>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;docker-ce.x86_64  3:18.09.0-3.el7                     docker-ce-stable <br/>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;docker-ce.x86_64  18.06.1.ce-3.el7                    docker-ce-stable <br/>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;docker-ce.x86_64  18.06.0.ce-3.el7                    docker-ce-stable <br/>
@@ -26,7 +26,7 @@
 &ensp;&ensp;&ensp;&ensp;&ensp;`docker run hello-world`
 
 #### 发布image
-&ensp;&ensp;&ensp;&ensp;&ensp;1.登录  `docker logi`n  <br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;1.登录  `docker login`  <br/>
 &ensp;&ensp;&ensp;&ensp;&ensp;2.重新构建image文件  `docker image build -t dosen2020/koa-demo:0.0.1 .`  <br/>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;【docker image build -t [username]/[repository]:[tag] .】 <br/>
 &ensp;&ensp;&ensp;&ensp;&ensp;3.发布image文件 `docker image push dosen2020/koa-demo:0.0.1` <br/>
