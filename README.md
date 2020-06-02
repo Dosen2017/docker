@@ -8,7 +8,7 @@
 ### 安装docker
 #### 最新版本安装
 ##### 命令
-&ensp;&ensp;&ensp;&ensp;yum install docker-ce docker-ce-cli containerd.io <br/>
+&ensp;&ensp;&ensp;&ensp;`yum install docker-ce docker-ce-cli containerd.io` <br/>
 #### 历史版本安装
 &ensp;&ensp;&ensp;&ensp;查找历史版本：yum list docker-ce --showduplicates | sort -r <br/>
 
