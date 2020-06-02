@@ -10,17 +10,17 @@
 ##### 命令
 &ensp;&ensp;&ensp;&ensp;`yum install docker-ce docker-ce-cli containerd.io` <br/>
 #### 历史版本安装
-&ensp;&ensp;&ensp;&ensp;查找历史版本：`yum list docker-ce --showduplicates | sort -r` <br/>
+&emsp;&emsp;查找历史版本：`yum list docker-ce --showduplicates | sort -r` <br/>
 
 &emsp;&emsp;&emsp;&emsp;docker-ce.x86_64  3:18.09.1-3.el7                     docker-ce-stable <br/>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;docker-ce.x86_64  3:18.09.0-3.el7                     docker-ce-stable <br/>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;docker-ce.x86_64  18.06.1.ce-3.el7                    docker-ce-stable <br/>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;docker-ce.x86_64  18.06.0.ce-3.el7                    docker-ce-stable <br/>
+&emsp;&emsp;&emsp;&emsp;docker-ce.x86_64  3:18.09.0-3.el7                     docker-ce-stable <br/>
+&emsp;&emsp;&emsp;&emsp;docker-ce.x86_64  18.06.1.ce-3.el7                    docker-ce-stable <br/>
+&emsp;&emsp;&emsp;&emsp;docker-ce.x86_64  18.06.0.ce-3.el7                    docker-ce-stable <br/>
 
-&ensp;&ensp;&ensp;&ensp;安装历史版本：`yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io`
+&emsp;&emsp;安装历史版本：`yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io`
 
 #### 启动docker
-&ensp;&ensp;&ensp;&ensp;&ensp;`systemctl start docker`
+&emsp;&emsp;`systemctl start docker`
 
 #### 运行实例
 &ensp;&ensp;&ensp;&ensp;&ensp;`docker run hello-world`
